@@ -8,7 +8,7 @@ def saudacao():
     if nome:
         return f"Olá, {nome}!"
     else:
-        return "Olá, Camila Schaustz!"
+        return "Olá, Recursos Humanos do Hospital Albert Einstein!"
 
 @app.route('/soma', methods=['POST'])
 def soma():
